@@ -1,0 +1,25 @@
+{
+  "name": "regl-electron-test",
+  "version": "0.0.0",
+  "description": "testing regl + electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . reglElectron --all",
+    "package-mac": "electron-packager . reglElectron --platform=darwin"
+  },
+  "keywords": [
+    "electron",
+    "fun",
+    "learning"
+  ],
+  "author": "Mark 'kaosat-dev' Moissette",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.4.0"
+  },
+  "dependencies": {
+    "regl-examples": "github:regl-project/regl-gallery#gh-pages"
+  }
+}
